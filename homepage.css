@@ -1,0 +1,159 @@
+*{
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+body
+{
+  background-color:whitesmoke ;
+}
+
+/* container */
+.container
+{
+  display: flex;
+  height: 500px;
+  width: 800px;
+  border: black solid 1px;
+  margin: auto;
+  margin-top: 50px;
+  background-color: whitesmoke;
+}
+.container.content.btn{
+  display:inline-block;
+  background: black;
+  color:#fff;
+
+}
+.container.content.btn:hover{
+  background-color: green;
+}
+
+/* form */
+
+.form
+{
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  align-items: center;
+  background-color: whitesmoke;
+}
+
+.form h2
+{
+  font-size: 3rem;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 40px;
+}
+.box
+{
+  padding: 12px;
+  width: 65%;
+  margin: 15px;
+  border: 1px solid black;
+  outline: none;
+  border-radius: 20px;
+
+}
+#submit{
+  width: 55%;
+  padding: 12px 30px;
+  margin-top: 40px;
+  background-color:  #3b5998;
+  color: antiquewhite;
+  font-weight: bold;
+  border: none;
+  outline: none;
+  border-radius: 20px;
+}
+
+#submit:hover
+{
+  cursor: pointer;
+  background-color: #750000;
+}
+.form a 
+{
+  text-decoration: none;
+  color:black;
+  margin-top: 20px;
+
+}
+.side
+{
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  background-size: 100% 100%;
+  
+  
+}
+.side img{
+  width: 460px;
+  height: 460px;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  
+
+}
+.form-container{
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  padding-bottom: 60px;
+  background: #eee;
+}
+.form-container form{
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow:0 5px 10px rgba (0,0,0,.1) ;
+  background: #fff;
+  text-align:center;
+  width: 500 px;
+}
+.form-container form  h3{
+  font-size: 30 px;
+  text-transform: uppercase;
+  margin-bottom: 10 px;
+}
+.form-container form input,
+.form-container form select{
+  width:100%;
+  padding: 10px 15 px;
+  font-size: 17px;
+  margin:8px 0;
+  background: #eee;
+  border-radius:5px ;
+}
+.form-container form select option{
+  background: #fff;
+}
+.form-container form .form-btn{
+  background: #fbd0d9;
+  color:lavenderblush;
+  text-transform: capitalize;
+  font-size: 20px;
+  cursor: pointer;
+}
+.form-container form .form-btn:hover{
+  background: crimson;
+  color: #fff;
+}
+.form-container form p{
+  margin-top: 10px;
+  font-size: 20px;
+  color: #333;
+}
+.form-container form p a{
+  color:crimson;
+}
+  
+#last{
+  margin-top: 40px;
+}
+
